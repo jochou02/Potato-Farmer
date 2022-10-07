@@ -74,10 +74,14 @@ def in_battle():
     enter_battle()
 
 def choose_card():
-    while onscreen("./screenshots/pass.png"):
+    while onscreen("./screenshots/wyvern.png"):
         click_to("./screenshots/wyvern.png")
-        if debug:
-            print("[DEBUG] Casting spell!")
+        if not onscreen("./screenshots/wyvern.png"):
+            if debug:
+                print("[DEBUG] Casting spell!")
+        else:
+            if debug:
+                print("[DEBUG] Retrying spell cast!")
         time.sleep(0.5)
 
 if __name__ == "__main__":
