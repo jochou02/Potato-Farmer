@@ -74,18 +74,11 @@ def in_battle():
     enter_battle()
 
 def choose_card():
-    counter = 0
     while onscreen("./screenshots/pass.png"):
-        if counter == 8:
-            click_to("./screenshots/pass.png")
-            if debug:
-                print("[DEBUG] Passing round!")
         click_to("./screenshots/wyvern.png")
         if debug:
             print("[DEBUG] Casting spell!")
         time.sleep(0.5)
-        counter += 1
-    
 
 if __name__ == "__main__":
     if sys.argv[1] == "-d":
