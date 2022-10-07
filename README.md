@@ -1,3 +1,4 @@
+This is a script to farm for couch potatoes in Grizzleheim.
 
 # Installation:
 
