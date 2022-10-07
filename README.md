@@ -8,7 +8,7 @@ This is a script to farm for couch potatoes in Grizzleheim.
 # Usage:
 
 * Turn off fullscreen and set Wiz client to 800 x 600. Move it to the TOP LEFT corner of your main monitor.
-* Navigate to your install directory using `cd` and r   un `py "farm.py"` in Terminal
+* Navigate to your install directory using `cd` and r   un `py "farm_(school).py"` in Terminal
 
 # Notes:
 
